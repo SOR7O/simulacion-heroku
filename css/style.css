@@ -90,16 +90,16 @@ body {
     z-index: 1;
     position: absolute;
     align-content: space-between;
-    margin-top: 11em;
+    bottom: 0em;
 }
 
 @media(max-width:760px) {
     .footer {
         z-index: 1;
-        min-height: 30em;
+        height: 40em;
     }
     .copyrigth {
-        margin-top: 20em;
+        bottom: 0.1em;
     }
 }
 
